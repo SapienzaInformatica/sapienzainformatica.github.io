@@ -15,6 +15,8 @@ languageDirection = 'ltr'
 languageName = 'Italiano'
 title = 'Starter kit'
 weight = 0
+[languages.it.params]
+contentDir = 'content.it'
 [languages.en]
 contentDir = 'content.en'
 disabled = false
@@ -23,7 +25,8 @@ languageDirection = 'ltr'
 languageName = 'English'
 title = 'Students starter kit'
 weight = 1
-
+[languages.en.params]
+contentDir = 'content.en'
 
 [markup]
 [markup.goldmark]
