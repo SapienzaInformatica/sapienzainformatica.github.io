@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir = true
 
 [languages]
 [languages.it]
-contentDir = 'content/it'
+contentDir = 'content.it'
 disabled = false
 languageCode = 'it-IT'
 languageDirection = 'ltr'
@@ -16,7 +16,7 @@ languageName = 'Italiano'
 title = 'Starter kit'
 weight = 0
 [languages.en]
-contentDir = 'content/en'
+contentDir = 'content.en'
 disabled = false
 languageCode = 'en-US'
 languageDirection = 'ltr'
