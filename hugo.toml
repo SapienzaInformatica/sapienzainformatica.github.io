@@ -47,5 +47,5 @@ BookSection = 'docs'
 # GitHub Stuff
 BookRepo = 'https://github.com/SapienzaInformatica/sapienzainformatica.github.io'
 BookCommitPath = 'commit'
-BookEditPath = 'edit/main'
+BookEditPath = 'edit/devel'
 BookDateFormat = 'Jan 2, 2006'
