@@ -1,0 +1,48 @@
+# baseURL = 'https://example.org/'
+# languageCode = 'it'
+title = 'Demo starter kit dello studente'
+theme = 'hugo-book'
+defaultContentLanguage = 'it'
+defaultContentLanguageInSubdir = true
+
+
+[languages]
+[languages.it]
+contentDir = 'content/it'
+disabled = false
+languageCode = 'it-IT'
+languageDirection = 'ltr'
+languageName = 'Italiano'
+title = 'Starter kit'
+weight = 0
+[languages.en]
+contentDir = 'content/en'
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'Students starter kit'
+weight = 1
+
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)'], ['$', '$']]
+[markup.goldmark.renderer]
+unsafe = true
+[params]
+math = true
+BookTheme = 'auto'
+BookToC = true
+BookSection = 'docs'
+
+# GitHub Stuff
+BookRepo = 'https://github.com/SapienzaInformatica/sapienzainformatica.github.io'
+BookEditPath = 'edit/main'
+BookDateFormat = 'Jan 2, 2006'
+enableGitInfo = true
